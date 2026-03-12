@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Mahmoud Abdelaleem | Cybersecurity Engineer</title>
+    <!-- EDIT HERE: غير الـ title لأي حاجة تحبها -->
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons (neon cyber look) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Font: Inter (modern & clean) + Orbitron for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon (optional - ضيف صورة fav-icon.ico في المجلد) -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- EDIT HERE: اسمك -->
+            <div class="logo">
+                <span class="neon-text">MOHAMED</span> MAHMOUD
+            </div>
+            
+            <!-- Desktop Menu -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION - Very fancy with network particles -->
+    <section id="hero" class="hero">
+        <canvas id="particleCanvas" class="particle-bg"></canvas>
+        
+        <div class="hero-content">
+            <!-- EDIT HERE: اسمك + اللقب -->
+            <h1 class="hero-title">
+                MOHAMED MAHMOUD<br>
+                <span class="highlight">ABDELALEEM</span>
+            </h1>
+            <h2 class="hero-subtitle">Cybersecurity Engineer</h2>
+            
+            <!-- EDIT HERE: الـ tagline (من الـ summary بتاعك) -->
+            <p class="hero-tagline">
+                Electronics & Communications Engineering Graduate<br>
+                Hands-on SOC | SIEM | Incident Response | Threat Hunting
+            </p>
+            
+            <div class="hero-buttons">
+                <!-- EDIT HERE: رابط الـ CV PDF (حطه في الـ repo وغير الاسم) -->
+                <a href="Mohamed-Mahmoud-CV.pdf" class="btn primary" target="_blank" download>
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+                <a href="#contact" class="btn secondary">Get In Touch</a>
+            </div>
+            
+            <!-- Social Icons (EDIT HERE: غير الـ links) -->
+            <div class="hero-socials">
+                <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:mohamedmahmoudabdelaleem@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT / SUMMARY -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <!-- EDIT HERE: الـ summary كامل من CVك -->
+            <div class="about-content">
+                <p>
+                    Electronics & Communications Engineering graduate with hands-on SOC experience. 
+                    Skilled in SIEM (Splunk, IBM QRadar), log analysis, incident response, vulnerability management, 
+                    playbook-driven workflows, plus basic digital forensics and threat intelligence, 
+                    with solid Cisco networking and Wireshark expertise.
+                </p>
+                <p>
+                    Passionate about defending digital infrastructure and turning threats into opportunities.
+                    Currently open to full-time SOC Analyst / Cybersecurity Engineer roles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE (Timeline) -->
+    <section id="experience" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Experience & Internships</h2>
+            
+            <div class="timeline">
+                <!-- EDIT HERE: كل internship (أضف أو احذف li حسب الحاجة) -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2025 – Feb 2026</div>
+                    <div class="timeline-content">
+                        <h3>Cybersecurity Technologies and Operations – NTI</h3>
+                        <p class="role">Offline – 420 hours</p>
+                        <ul>
+                            <li>Network & System Administration, Cloud Security, SOC Operations, Penetration Testing</li>
+                            <li>Real-world attack simulations and advanced incident response</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>Cybersecurity Superhero Academy – NTI</h3>
+                        <p class="role">Online</p>
+                        <ul>
+                            <li>Palo Alto Firewalls & VPNs, F5 (VLANs, Virtual Servers, iRules)</li>
+                            <li>Trellix tools (EDR, XDR, NDR, DLP)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun – Dec 2025</div>
+                    <div class="timeline-content">
+                        <h3>Information Security Analyst – DEPI</h3>
+                        <p class="role">Hybrid</p>
+                        <ul>
+                            <li>Hands-on SOC operations, SIEM monitoring, incident response</li>
+                            <li>Capstone project simulating real-world incident handling</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- باقي الـ internships (مختصرة) -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Apr – May 2025</div>
+                    <div class="timeline-content">
+                        <h3>Cyber Operation Center – NTI</h3>
+                        <p class="role">Online – 72 hours</p>
+                        <ul><li>Event correlation, threat detection, playbook-driven workflows</li></ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep – Nov 2024</div>
+                    <div class="timeline-content">
+                        <h3>CCNA Routing and Switching – NTI</h3>
+                        <p class="role">Offline – 120 hours</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2024</div>
+                    <div class="timeline-content">
+                        <h3>Cloud Computing – NTI & Huawei ETA</h3>
+                        <p class="role">Offline</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="tag">Graduation Project</span>
+                    </div>
+                    <h3>Efficient IoT-Based Landscaping Irrigation Manager (IOT-ELIM)</h3>
+                    <p>
+                        AR-based autonomous navigation and sensor-driven irrigation system using Raspberry Pi & OpenCV. 
+                        Improved water efficiency. Presented at national competitions • Secured 30,000 EGP funding • Excellent grade.
+                    </p>
+                    <div class="project-tech">Raspberry Pi • OpenCV • IoT • AR</div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="tag">SOC Lab</span>
+                    </div>
+                    <h3>Penetration Testing Simulation & Detection Framework (PTS-DDF)</h3>
+                    <p>
+                        End-to-end SOC lab simulating Red Team attacks and Blue Team defenses. 
+                        Used Sysmon, Splunk, FortiGate for real-time log analysis, threat detection, and hunting across Windows & Linux.
+                    </p>
+                    <div class="project-tech">Splunk • Sysmon • FortiGate • Windows/Linux</div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="tag">Automation Tool</span>
+                    </div>
+                    <h3>Automated Penetration Testing & Reporting Framework (APTRF)</h3>
+                    <p>
+                        Linux-based tool that automates full penetration testing: domain recon (Python), scanning (Nmap, Nikto), 
+                        exploitation (Brute Force, SQLi, XSS), and auto-generated reports.
+                    </p>
+                    <div class="project-tech">Python • Nmap • Nikto • Linux</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-grid">
+                <!-- EDIT HERE: أضف أو احذف skills -->
+                <div class="skill-category">
+                    <h4>SOC & Security Operations</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Log Analysis</span>
+                        <span class="skill-tag">Incident Response</span>
+                        <span class="skill-tag">Threat Detection</span>
+                        <span class="skill-tag">Vulnerability Management</span>
+                        <span class="skill-tag">Playbook Workflows</span>
+                        <span class="skill-tag">Digital Forensics</span>
+                        <span class="skill-tag">Threat Intelligence</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>SIEM & Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag">IBM QRadar</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Sysmon</span>
+                        <span class="skill-tag">FortiGate</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Networking & Systems</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Cisco CCNA</span>
+                        <span class="skill-tag">TCP/IP</span>
+                        <span class="skill-tag">VLANs & Routing</span>
+                        <span class="skill-tag">Linux Administration</span>
+                        <span class="skill-tag">Windows Server</span>
+                        <span class="skill-tag">Palo Alto Firewalls</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION & COURSES -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="two-columns">
+                <!-- Education -->
+                <div>
+                    <h2 class="section-title">Education</h2>
+                    <!-- EDIT HERE -->
+                    <div class="edu-card">
+                        <h3>B.Sc. Electronics & Communications Engineering</h3>
+                        <p class="uni">The Egyptian Academy for Engineering and Advanced Technology (EAEAT)</p>
+                        <p class="date">2020 – 2025 • Cairo, Egypt</p>
+                    </div>
+                </div>
+                
+                <!-- Courses -->
+                <div>
+                    <h2 class="section-title">Courses & Certifications</h2>
+                    <ul class="courses-list">
+                        <li>SANS SEC450 – Blue Team Fundamentals</li>
+                        <li>Cisco CyberOps</li>
+                        <li>SIEM Fundamentals (Splunk & QRadar)</li>
+                        <li>eLearnSecurity Certified Incident Responder (eCIR)</li>
+                        <li>CCNA Routing and Switching</li>
+                        <li>Linux & Windows Server Administration</li>
+                        <li>Cloud Computing Fundamentals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> mohamedmahmoudabdelaleem@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +20 102 097 3280</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</p>
+                </div>
+                
+                <!-- Simple contact form (static - no backend) -->
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mohamed Mahmoud Abdelaleem. Built with neon & passion.</p>
+            <p>Made for GitHub Pages • Feel free to fork & customize!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
